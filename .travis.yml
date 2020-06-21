@@ -1,5 +1,5 @@
 language: node
-rvm:
+node_js:
   - 14
 
 env:
