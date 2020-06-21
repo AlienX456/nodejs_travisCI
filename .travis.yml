@@ -7,7 +7,6 @@ env:
 
 before_install:
   - npm install
-  - npm -g install mocha
 
 after_install:
   - echo 'no build for now'
