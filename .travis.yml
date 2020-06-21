@@ -1,0 +1,18 @@
+language: node
+rvm:
+  - 14
+
+env:
+  - NPM_TARGET=test
+
+before_install:
+  - npm install
+
+after_install:
+  - echo 'no build for now'
+
+scripts:
+  - npm run test NPM_TARGET
+
+after_success:
+  - echo 'All finished well'
