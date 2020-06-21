@@ -12,7 +12,7 @@ after_install:
   - echo 'no build for now'
 
 scripts:
-  - npm run test NPM_TARGET
+  - npm run $NPM_TARGET
 
 after_success:
   - echo 'All finished well'
